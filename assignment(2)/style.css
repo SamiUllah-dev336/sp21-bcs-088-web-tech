@@ -1,0 +1,97 @@
+body{
+    background-color:aliceblue;
+}
+.header{
+    border-bottom: 1px solid black;
+}
+.navbar{
+    background-color:aliceblue !important;
+}
+.carousel{
+    margin-bottom: 5%;
+    overflow: hidden !important;
+    background-color: black !important;
+}
+
+.PakfoodLogo{
+    margin:0 10px 0 10px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.card-body{
+    background-color:beige;
+}
+
+
+.buttonRead:hover{
+    color:black !important;  
+}
+
+.footer{
+    width: 100%;
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.AllComponents ul li{
+    color: whitesmoke;
+    margin-right: 12px;
+    display: inline;
+}
+.company{
+    display: flex;
+}
+.company p{
+    color: whitesmoke;
+    margin-right: 10px;
+}
+
+.card{
+    margin:10px 0;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down)*/
+/* @media only screen and (max-width: 600px) {
+    
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+    .card{
+        flex-basis: 23%;
+        margin: 10px 0;
+    }
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+    .card{
+        flex-basis: 23%;
+        margin: 10px 0;
+    }
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+    .card{
+        flex-basis: 23%;
+        margin: 0 10px;
+    }
+} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+   
+}  */

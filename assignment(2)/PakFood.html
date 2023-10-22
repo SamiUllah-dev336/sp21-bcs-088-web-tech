@@ -6,9 +6,153 @@
     <title>Local Food MarketPlace</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6fd3aec3c0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>I am samiullah</h1>
+
+    <!--Navbar  -->
+    <div class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+
+              <img class="PakfoodLogo" src="assets/pakFoods.png" alt="PakFoods" width="70">         
+              <a class="navbar-brand" href="#"><strong>PakFoods (pvt) Ltd</strong></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Fruits</a></li>
+                      <li><a class="dropdown-item" href="#">Vegetables</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Additional Products</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">          
+                  <!-- <a class="nav-link active" href="#"">Signup</a>
+                  <a class="nav-link active" href="#"">Login</a> -->
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <!--Carousel-->
+
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <video class="d-block w-100"  autoplay loop muted>
+            <source src="./assets/Fruits.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="carousel-item">
+          <video class="d-block w-100"  autoplay loop muted>
+            <source src="./assets/Fruits_vegetables.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="carousel-item">
+          <video class="d-block w-100"  autoplay loop muted>
+            <source src="./assets/vegetables.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Here is a card code And it is used for displaying categories of things  -->
+    <div class="cards">
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/fruit1.png" class="card-img-top" alt="fruits" height=45%>
+        <div class="card-body">
+          <h5 class="card-title">Fruits</h5>
+          <p class="card-text">Indulge in the natural sweetness and crispness of our hand-picked, fresh fruits. From succulent oranges to juicy watermelons, our selection is a testament to quality and taste. Conveniently order online and have the goodness delivered to your doorstep. Join us in savoring the freshness today!</p>     
+        </div>
+      </div>
+  
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/vegetable1.png" class="card-img-top" alt="fruits" height=45%>
+        <div class="card-body">
+          <h5 class="card-title">Vegetables</h5>
+          <p class="card-text">Experience the garden-fresh goodness of our handpicked vegetables. From vibrant, crunchy bell peppers to farm-fresh carrots, our selection embodies quality and flavor. Order online for convenient doorstep delivery, bringing the essence of the farm straight to your kitchen. Join us today!</p>
+          
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/Meat.png" class="card-img-top" alt="fruits" height=39%>
+        <div class="card-body">
+          <h5 class="card-title">Meat</h5>
+          <p class="card-text">Indulge in the finest cuts of meat, sourced for quality and flavor. From tender steaks to succulent chicken, our range promises exceptional taste. Conveniently order online for delivery that ensures farm-fresh, high-quality meat at your doorstep. Join us today! </p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/iceCream.jpeg" class="card-img-top" alt="fruits" height=39%>
+        <div class="card-body">
+          <h5 class="card-title">Ice Cream</h5>
+          <p class="card-text">Treat yourself to creamy, indulgent ice cream flavors that ignite your taste buds. From classic vanilla to exotic sorbets, our selection offers pure delight. Enjoy the convenience of ordering online and having these frozen treasures delivered to your door. Join us today!</p>    
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        
+        <div class="AllComponents">
+          <ul>
+            <li><a>Home</a></li>
+            <li><a>Features</a></li>
+            <li><a>Pricing</a></li>
+            <li><a>FAQs</a></li>
+            <li><a>About</a></li>
+          </ul>
+        </div>
+        <div class="company">
+          <p>copyright
+            <i class="fa-regular fa-copyright" style="color: #3661ce;"></i>
+            2024 PakFoods Pvt Ltd,Pakistan
+          </p>  
+          <span>
+            <i class="fa-brands fa-facebook" style="color: #1b63de;"></i>
+            <i class="fa-brands fa-square-instagram" style="color: #1b63de;"></i>
+            <i class="fa-brands fa-square-twitter" style="color: #1b63de;"></i>
+          </span> 
+        </div>
+
+    </div>
+
     
+   
+
 </body>
 </html>
+
+
