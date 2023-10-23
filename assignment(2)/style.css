@@ -10,7 +10,16 @@ body{
 .carousel{
     margin-bottom: 5%;
     overflow: hidden !important;
-    background-color: black !important;
+}
+
+
+
+.help{
+    position: fixed;
+    margin-right: 10px;
+    top: 500px;
+    right: 0;
+    z-index: 3;  
 }
 
 .PakfoodLogo{
@@ -21,6 +30,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
+    margin-bottom: 20px;
 }
 
 .card-body{
@@ -69,29 +79,28 @@ body{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* @media only screen and (min-width: 600px) {
-    .card{
-        flex-basis: 23%;
-        margin: 10px 0;
+    .carousel-inner{
+        height: 700px;
     }
 } */
 
 /* Medium devices (landscape tablets, 768px and up) */
 /* @media only screen and (min-width: 768px) {
-    .card{
-        flex-basis: 23%;
-        margin: 10px 0;
+    .carousel-inner{
+        height: 600px;
     }
 } */
 
 /* Large devices (laptops/desktops, 992px and up) */
 /* @media only screen and (min-width: 992px) {
-    .card{
-        flex-basis: 23%;
-        margin: 0 10px;
+    .carousel-inner{
+        height: 500px;
     }
 } */
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /* @media only screen and (min-width: 1200px) {
-   
+    .carousel-inner{
+        height: 500px;
+    }
 }  */

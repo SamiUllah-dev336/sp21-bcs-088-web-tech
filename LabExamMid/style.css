@@ -1,0 +1,84 @@
+body{
+    line-height: 1.7;
+    background-color: red;
+    color: #444;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+}
+#id{
+   
+}
+.top{
+    display: flex;
+}
+.left{
+    width: 60%;
+}
+.right ul{
+    display: flex;
+}
+.right ul li{
+    display: flex;
+    margin-right: 20px;
+}
+.right ul li button{
+    border-radius: 5px;
+    background-color: #104591;
+    color: #fff;
+}
+
+.logoName{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 10px;
+    background: url(../LabExamMid/assets/background.png);
+}
+.navleft{
+    display: flex;
+}
+.name{
+    margin-top: 20px;
+}
+.navRight{
+    display: flex;
+}
+.search{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.header{
+    width: 100%;
+}
+.header ul{
+    display: flex;
+    background-color: green;
+}
+.header ul li{
+    font-size: 15px;
+    display: flex;
+    margin-right: 50px;
+    color: #fff;
+}
+
+.carousel-inner{
+    width: 60%;
+
+}
+.sliderCards{
+    display: flex;
+}
+.row{
+    width: 40%;
+}
+.card{
+    width: 100px;
+    height: 100px;
+    background-color: #3CD6D6;
+}
+
+
+
+    
